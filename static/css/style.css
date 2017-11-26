@@ -1,7 +1,9 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
 .kal-page {
   position: relative;
   padding: 60px;
-  font-family: serif;
+  font-family: 'Nanum Myeongjo', serif;
   color: #232323;
 }
 
@@ -157,7 +159,7 @@ position: absolute;
 }
 
 .desc-want-to-go {
-    font-size: 28px;
+    font-size: 18px;
     text-align: center;
 }
 
