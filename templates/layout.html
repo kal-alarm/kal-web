@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>KAL - 칼.</title>
+  {% load staticfiles %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+  {% block style %}{% endblock %}
+</head>
+<body>
+  {% block body %}{% endblock %}
+</body>
+</html>

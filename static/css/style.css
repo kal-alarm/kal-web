@@ -1,0 +1,181 @@
+.kal-page {
+  position: relative;
+  padding: 60px;
+  font-family: serif;
+  color: #232323;
+}
+
+.gray-bg {
+  background-color: #f5f5f5;
+}
+
+.wrap-logo {
+  margin: 105px 0;
+}
+
+.img-logo {
+  width: 160px;
+  margin: 0 auto;
+  display: block;
+}
+
+.article-kal {
+      line-height: 37px;
+    font-size: 20px;
+}
+
+.article-kal:first-child {
+  margin-bottom: 26px;
+}
+
+.text-bg {
+  height: 357px;
+  overflow: hidden;
+  font-size: 20px;
+  color: #bfbcbc;
+}
+
+.txt-want-to-go {
+    color: #e24d4d;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.title-want-to-go {
+position: absolute;
+    top: 140px;
+    font-size: 130px;
+}
+
+.desc-want-to-go {
+position: absolute;
+    top: 300px;
+    font-size: 30px;
+}
+
+.img-phone {
+  width: 300px;
+}
+
+.wrap-service-desc {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.txt-desc-title {
+  margin-top: 110px;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+
+.txt-desc-text1 {
+  font-size: 22px;
+}
+
+.txt-desc-text2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.txt-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+/* transition / transform */
+
+.text-bg {
+ -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+
+#txt, #hidden-txt {
+-webkit-transition: 3s ease-in;
+    -moz-transition: 3s ease-in;
+    -o-transition: 3s ease-in;
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+  #bg:hover #txt {
+   visibility: hidden;
+   opacity: 0;
+  }
+
+  #bg:hover #hidden-txt {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #bg:hover .text-bg {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+/** media **/
+
+
+
+
+
+@media only screen and (max-width : 980px) {
+    .wrap-service-desc {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+    }
+
+.txt-desc-text1 {
+    line-height: 32px;
+}
+
+.txt-desc-text2 {
+    line-height: 27px;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+
+.wrap-logo {
+    margin: 10px 0;
+}
+
+ .article-kal {
+        line-height: 36px;
+    font-size: 17px;
+}
+
+.title-want-to-go {
+    top: 157px;
+    font-size: 100px;
+}
+
+.desc-want-to-go {
+    font-size: 28px;
+    text-align: center;
+}
+
+}
+
+@media only screen and (max-width : 370px) {
+
+.kal-page {
+padding: 40px;
+}
+
+.title-want-to-go {
+    top: 157px;
+    font-size: 75px;
+}
+
+.desc-want-to-go {
+    font-size: 24px;
+}
+
+}
